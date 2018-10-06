@@ -1,0 +1,9 @@
+app:
+  mappa:
+    k1:
+      a: a
+      b: b
+    k2:
+      a: a
+      b: b
+  lista: v1,v2
