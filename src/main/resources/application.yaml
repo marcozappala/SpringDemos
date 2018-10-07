@@ -1,9 +1,14 @@
 app:
-  mappa:
-    k1:
-      a: a
-      b: b
-    k2:
-      a: a
-      b: b
-  lista: v1,v2
+  m:
+    mappa.k1: 1
+    mappa.k2: 2
+  lista: > # v1,v2 (anche una lista virgolettata cosi senza '>' funziona)
+    - v1,
+    - v2
+
+
+zap-mappa-of-list:
+    whatever.[CombinationsAlpha]: aaabbb, bbbaaa, ccceee, dddggg
+    whatever.[CombinationsInteger]: 000111, 222666, 999000, 151515
+
+
