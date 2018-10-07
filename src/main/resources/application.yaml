@@ -7,8 +7,13 @@ app:
     - v2
 
 
-zap-mappa-of-list:
+zap-map-of-list:
     whatever.[CombinationsAlpha]: aaabbb, bbbaaa, ccceee, dddggg
     whatever.[CombinationsInteger]: 000111, 222666, 999000, 151515
 
+zap-map-of-map:
+    map.map-first-key.key1: aaa
+    map.map-first-key.key2: bbb
+    map.map-second-key.key1: ccc
+    map.map-second-key.key2: ddd
 
